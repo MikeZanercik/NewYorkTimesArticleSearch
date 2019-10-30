@@ -1,4 +1,14 @@
-#newYorkTimesJumbo {
+.jumbotron {
     text-align: center;
-    background-color: ;
+    background-color: #162252;
+    color: white;
+    font-size: 50px;
+
+    /* margin-left: 15%;
+    margin-right: 15%; */
+
+}
+.card-header{
+    background-color: #162252;
+    color: white;
 }
