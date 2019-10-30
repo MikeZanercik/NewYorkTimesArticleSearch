@@ -1,4 +1,7 @@
-#newYorkTimesJumbo {
+.jumbotron {
     text-align: center;
-    background-color: ;
+    background-color: #162252;
+    color: white;
+    text-size-adjust: 50px;
+
 }
