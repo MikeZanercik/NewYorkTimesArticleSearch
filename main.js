@@ -6,6 +6,9 @@ $.ajax({
     method: "GET"
   })
 
+
+
+  
   .then(function(response) {
     console.log(queryURL); 
     console.log(response);
