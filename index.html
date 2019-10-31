@@ -19,11 +19,13 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-1"></div>
+            <div class="col-10">
                 <div class="card">
                     <div class="card-header">
                         Search Parameters
                     </div>
+                    <div class="col-1"></div>
                     <div class="card-body">
                         <form>
                             <div class="form-group">
@@ -32,7 +34,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="dropDown">Number of Records to Retrieve</label>
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="numberSelector">
                                     <option>1</option>
                                     <option>5</option>
                                     <option>10</option>
@@ -49,6 +51,8 @@
                                 <input type="text" class="form-control" placeholder="Year">
                             </div>
                         </form>
+                        <button type="button" class="btn btn-primary">Search</button>
+                        <button type="button" class="btn btn-secondary">Reset</button>
                     </div>
                 </div>
                 <div class="card">
